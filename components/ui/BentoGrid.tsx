@@ -9,6 +9,8 @@ import { use, useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { LuPhone } from "react-icons/lu";
+import { MdOutlineEmail } from "react-icons/md";
 
 export const BentoGrid = ({
   className,
@@ -151,13 +153,15 @@ export const BentoGridItem = ({
                   }}
                 />
               </div>
-              <MagicButton
-                title={copied ? "Email Copied!" : "Copy My Email"}
-                icon={<IoCopyOutline />}
-                position="left"
-                otherClasses="`bg-[#161a31]`"
-                handleClick={handleCopy}
-              />
+              <a href="mailto:kbandison@gmail.com">
+                <MagicButton
+                  title={copied ? "Email in Progress!" : "Email me Now!"}
+                  icon={<MdOutlineEmail />}
+                  position="left"
+                  otherClasses="`bg-[#161a31]`"
+                  handleClick={handleCopy}
+                />
+              </a>
             </div>
           )}
         </div>
