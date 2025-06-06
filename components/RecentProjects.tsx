@@ -33,8 +33,8 @@ const RecentProjects = () => {
                   src={img}
                   alt={title}
                   className="z-10 absolute -bottom-4 rotate-3 rounded-xl"
-                  width={400}
-                  height={400}
+                  width={800}
+                  height={800}
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line clamp-1">
