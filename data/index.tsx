@@ -92,7 +92,7 @@ export const projects = [
     des: "Galon Consulting Services, LLC provides world-class solutions in billing, compliance, and patient care for practices of all sizes.",
     img: "/Screenshot 2025-06-08 051651.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
-    link: "galon-consulting.vercel.app",
+    link: "https://galon-consulting.vercel.app/",
   },
   {
     id: 4,
