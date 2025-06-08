@@ -88,20 +88,20 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Galon Consulting",
+    des: "Galon Consulting Services, LLC provides world-class solutions in billing, compliance, and patient care for practices of all sizes.",
+    img: "/Screenshot 2025-06-08 051651.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "galon-consulting.vercel.app",
+  },
+  {
+    id: 4,
     title: "Car Hub - Car Rental Service",
     des: "Simplify your rental car needs with Car Hub. Seamlessly find, get information on, and rent your favorite car.",
     img: "/car-hub.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
 ];
 
 export const testimonials = [
