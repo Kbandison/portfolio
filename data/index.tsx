@@ -71,7 +71,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    id: 5,
     title: "Allset Appliance Repair - Appliance Repair Pros",
     des: "Delivering high-quality repair services that extend the life of your appliances.",
     img: "/allset-repair2.svg",
@@ -79,7 +79,7 @@ export const projects = [
     link: "https://bit.ly/4gdTKA2",
   },
   {
-    id: 2,
+    id: 4,
     title: "Axionyx - Digital Web Design",
     des: "A digital design agency using the latest tech stack.",
     img: "/Axionyx-screenshot.png",
@@ -88,6 +88,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Reparation Road",
+    des: "Uncover your family history and explore Black heritage with Reparation Road’s research, genealogy, and cultural resources.",
+    img: "/Screenshot 2025-06-30 092759.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://reparationroad.com/",
+  },
+  {
+    id: 2,
     title: "Galon Consulting",
     des: "Galon Consulting Services, LLC provides world-class solutions in billing, compliance, and patient care for practices of all sizes.",
     img: "/Screenshot 2025-06-08 051651.png",
@@ -95,7 +103,15 @@ export const projects = [
     link: "https://galon-consulting.vercel.app/",
   },
   {
-    id: 4,
+    id: 1,
+    title: "Cake Haven",
+    des: "Your local cake enthusi-ist shop!",
+    img: "/Screenshot 2025-06-20 103538.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://bit.ly/4n8OG3t",
+  },
+  {
+    id: 6,
     title: "Car Hub - Car Rental Service",
     des: "Simplify your rental car needs with Car Hub. Seamlessly find, get information on, and rent your favorite car.",
     img: "/car-hub.svg",
